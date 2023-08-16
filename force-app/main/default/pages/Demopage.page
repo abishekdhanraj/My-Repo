@@ -1,0 +1,25 @@
+<apex:page >
+    <apex:form >
+    <apex:selectCheckboxes >
+       
+    </apex:selectCheckboxes>
+    
+   <apex:actionStatus ondblclick="Values are passesd with it "></apex:actionStatus>
+    <apex:pageMessage summary="Validation has been completed" severity="Confirm" strength="3"></apex:pageMessage>
+      <apex:panelBar id="Item" >
+          <apex:panelBarItem label="Enter the value" onenter="alert('Press in'); " onleave="alert('Press out');"> Item 1</apex:panelBarItem>
+          <apex:panelBarItem label="Enter the age" onenter="alert('20'); " onleave="alert('34');"> Item 2</apex:panelBarItem>
+          <apex:panelBarItem label="Enter the Gender" onenter="alert('Male'); " onleave="alert('Female');"> Item 1</apex:panelBarItem>
+      </apex:panelBar>
+      <apex:tabPanel switchType="client">
+          <apex:tab label="Home" name="Lead" id="tab1" > Account 1</apex:tab>
+              <apex:tab label="Account" name="Account" id="tab2"> Account 2</apex:tab>
+                  <apex:tab label="Contacts" name="Contacts" id="tab3"> Account 3</apex:tab>
+                      <apex:tab label="Opportuinty" name="Opportuinty" id="tab4"> Account 5</apex:tab>
+                          <apex:tab label="cases" name="cases" id="tab5"> Account 1</apex:tab>
+                              <apex:tab label="product" name="product" id="tab6">Account6</apex:tab>
+                                  <apex:tab label="LFHS" name="LFHS" id="tab7"> Account 7</apex:tab>
+                                      <apex:tab label="RFHS" name="RFHS" id="tab8">account 8</apex:tab>
+                                          </apex:tabPanel>
+                                              </apex:form> 
+                                                </apex:page>
