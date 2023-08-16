@@ -1,4 +1,5 @@
 /*
+*  Class Name:- 
 *  Created by:- Abishek ND
 *  Description:- 
 *  Created Date:- 
@@ -95,6 +96,12 @@ public with sharing class ApexTriggerHandler {
         }
     }
 }
+/*
+*  Created by:- Abishek ND
+*  Description:- 
+*  Created Date:- 
+*  Last Modified Date:- 
+*/
 /* public static void populateTrigger(List<Account> accLst){
     for(Account acc :accLst){
         if(acc.Industry != null && acc.Industry == 'Media'){ // Before Insert a record to database
